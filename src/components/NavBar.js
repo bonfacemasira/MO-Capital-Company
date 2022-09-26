@@ -9,22 +9,16 @@ function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">HOME</Nav.Link>
-            <Nav.Link href="#features">FEATURES</Nav.Link>
-            <Nav.Link href="#pages">PAGES</Nav.Link>
-            <Nav.Link href="#project">PROJECT</Nav.Link>
-            <Nav.Link href="#contact">CONTACT</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">About us</Nav.Link>
+            <Nav.Link href="#pages">Services</Nav.Link>
+            {/* <Nav.Link href="#project">Philosophy</Nav.Link> */}
+            <Nav.Link href="#project">Team</Nav.Link>
+            <NavDropdown title="Philosophy" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Projects</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Shop</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="#contact">Contact us</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>
@@ -35,17 +29,6 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
-    //   <header>MO-Capital Company</header>
-    //   <div>
-    //     <ul>
-    //       <li>HOME</li>
-    //       <li>FEATURES</li>
-    //       <li>PAGES</li>
-    //       <li>PROJECT</li>
-    //       <li>CONTACT</li>
-    //     </ul>
-    //   </div>
   );
 }
 
