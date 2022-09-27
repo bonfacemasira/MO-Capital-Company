@@ -1,11 +1,11 @@
 import React from "react";
-import Carousel from "../images/carousel.png"
+import image from "../images/carousel.png"
 
 
 function Carousel () {
     return (
         <div>
-            <img src={Carousel} alt="Carousel" />
+            <img src={image} alt="Carousel" />
         </div>
     )
 }

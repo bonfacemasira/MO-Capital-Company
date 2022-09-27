@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
+import  Carousel from "./Carousel";
 import NavBar from "./NavBar";
 
 function LandingPage() {
